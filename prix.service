@@ -1,0 +1,40 @@
+[Unit]
+Description=Prix AI Security System
+Documentation=https://github.com/devmonixtechnologies/prix
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/opt/prix-security/current
+Environment=PRIX_ENV=production
+EnvironmentFile=-/etc/prix-security/prix.env
+ExecStart=/usr/bin/python3 /opt/prix-security/current/seamless_launcher.py
+ExecReload=/bin/kill -HUP $MAINPID
+ExecStop=/usr/bin/python3 /opt/prix-security/current/seamless_launcher.py --stop
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=prix-security
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/prix-security /var/log/prix-security /var/run/prix-security
+ReadOnlyPaths=/etc/prix-security
+
+# Resource limits
+LimitNOFILE=65536
+LimitNPROC=4096
+
+# Timeout settings
+TimeoutStartSec=60
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target

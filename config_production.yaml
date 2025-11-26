@@ -1,0 +1,75 @@
+# Production Configuration
+# Prix AI Security System - Production Environment
+
+environment: production
+debug: false
+
+# Database Configuration
+database:
+  host: localhost
+  port: 5432
+  name: prix_security
+  user: prix_user
+  password: ""  # Set via PRIX_DB_PASSWORD environment variable
+  ssl_mode: require
+  pool_size: 10
+  max_overflow: 20
+  pool_timeout: 30
+  pool_recycle: 3600
+
+# Logging Configuration
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_path: /var/log/prix-security/prix.log
+  max_file_size: 104857600  # 100MB
+  backup_count: 10
+  console_output: false
+  structured_logging: true
+  log_to_syslog: true
+
+# Security Configuration
+security:
+  encryption_key_rotation_days: 90
+  session_timeout_minutes: 30
+  max_login_attempts: 5
+  password_min_length: 12
+  require_2fa: true
+  audit_log_retention_days: 365
+  threat_intelligence_update_interval_minutes: 15
+
+# Monitoring Configuration
+monitoring:
+  health_check_interval_seconds: 30
+  metrics_collection_interval_seconds: 60
+  alert_threshold_cpu_percent: 80.0
+  alert_threshold_memory_percent: 85.0
+  alert_threshold_disk_percent: 90.0
+  performance_metrics_retention_days: 30
+
+# IoT Configuration
+iot:
+  max_devices: 1000
+  device_timeout_seconds: 300
+  sensor_data_retention_days: 90
+  mqtt_broker_host: localhost
+  mqtt_broker_port: 1883
+  mqtt_tls_enabled: true
+  device_discovery_interval_minutes: 5
+
+# System Paths
+base_path: /opt/prix-security
+config_path: /etc/prix-security
+log_path: /var/log/prix-security
+data_path: /var/lib/prix-security
+run_path: /var/run/prix-security
+
+# Performance Settings
+worker_processes: 4
+max_connections: 1000
+request_timeout_seconds: 30
+
+# Security Keys (Set via environment variables in production)
+secret_key: ""  # Set via PRIX_SECRET_KEY
+api_key: ""     # Set via PRIX_API_KEY
+encryption_key: ""  # Set via PRIX_ENCRYPTION_KEY
