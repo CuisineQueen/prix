@@ -780,7 +780,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 1. **SystemMonitor**: Real-time monitoring of processes, network, and filesystem
 2. **ThreatEliminator**: Automated threat neutralization
 3. **DatabaseManager**: Persistent storage and logging
-4. **Dashboard**: Web-based monitoring interface
 
 ### Detection Methods
 
